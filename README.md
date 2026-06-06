@@ -16,6 +16,9 @@ Using the temperature recording from the thermistor, I can then use C++ on the A
 # Code
 [Code](Temp_Fan.ino)
 
+# Demo Video
+[Demo](https://youtube.com/shorts/UlkcWU_BmS0?si=AD0SvlYU9loP-n6i)
+
 # Component List
 1. L293D H-Bridge
 2. 1 DC Motor
