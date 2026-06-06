@@ -2,7 +2,7 @@
 This project involves using a thermistor to measure temperature; this temperature then determines whether the fan is on or off. After an arbitrary threshold temperature is reached, the fan activates automatically. 
 
 # Introduction
-In this repository, I will build on my previous thermistor project by implementing a fan that activates based on temperature. Instead of the LCD screen, the temperature was to be displayed on the Serial Monitor for debugging. The thermistor is a variable resistor whose resistance changes with temperature; it is placed in a voltage divider to produce a changing output across the thermistor. Rearranging the voltage divider formula allows the calculation of the resistance of the thermistor; this can then be used in the Steinhart-Hart Equation to calculate the temperature. 
+In this repository, I will build on my previous thermistor project by implementing a fan that activates based on temperature. Instead of the LCD screen, the temperature was to be displayed on the Serial Monitor for debugging. The thermistor is a variable resistor whose resistance changes with temperature; it is placed in a voltage divider to produce a changing output across the thermistor. Rearranging the voltage divider formula allows the calculation of the resistance of the thermistor; this can then be used in the Steinhart-Hart Equation to calculate the temperature. The values of the beta coefficient and the nominal resistance (@ 25 degrees Celsius) were listed on the thermistor data sheet.
 
 
 
