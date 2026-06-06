@@ -14,6 +14,24 @@ Using the temperature recording from the thermistor, I can then use C++ on the A
 ![Wiring](Temp_Fan.png)
 
 # Code
-[Code](
+[Code](Temp_Fan.ino)
 
+# Component List
+1. L293D H-Bridge
+2. 1 DC Motor
+3. Arduino Uno R3 Microcontroller or similar
+4. Thermistor
+5. Series resistor
+6. 4 AA Batteries and a battery pack
+7. Fan blade
+
+
+# Usage
+Double check the data sheet of your thermistor and the pins of the H-Bridge. Assemble the circuitry and then download the Arduino IDE. Upload the code above and analyse by heating up the thermistor manually.
+
+# Common Issues
+1. Not using Kelvin for the temperature calculations
+2. Not connecting the Ground of the battery pack to the ground of the rest of the circuit
+3. Loose Wires
+4. H-Bridge connected the wrong way round
 
